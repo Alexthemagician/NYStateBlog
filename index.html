@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="page1">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <title>The State of New York</title>
+        <link rel="stylesheet" href="styles.css" id="device">
+        <script></script>
+        <style>
+            @media only screen and (max-width: 768px) {
+                aside {
+                    display: none;
+                    position: relative;
+                }
+    
+                #link1, #link2, #link3 {
+                    display: none;        
+                }
+
+                #floating_image, #image1, #image2, #image3 {
+                    max-width: 100%;
+                }
+
+                nav {
+                    margin-top: 1vh;
+                }
+
+                ul {   
+                    display: flex;
+                    flex-direction: column; 
+                    flex-grow: 1;
+                    justify-content:space-evenly;   
+                    flex-shrink: 0;        
+                    padding: 3vh 2vw;      
+                }
+
+                ul a {
+                    display: block;
+                    width: 50vw;
+                    height: 6vh;    
+                    background-color: rgb(119, 128, 145);
+                    border-color: transparent;
+                    font-size: 5vw;
+                    box-shadow: 1vh 0.5vh 3vh rgb(6, 20, 31);
+                    border-radius: 2.5vw; 
+                    text-align: center;
+                    text-decoration: none;    
+                }
+
+                form {
+                    max-width: 100%;
+                }
+
+                #first, #last, #textbox, #email, #email2 {
+                    max-width: 100%;
+                    padding: 0;
+                }
+
+            }
+        </style>    
+    </head>
+    <div>    
+    <body class="main_body">
+        <header>
+            <h1 id="homepage">The State of New York</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/New_York_in_United_States.svg/300px-New_York_in_United_States.svg.png" alt="New York on the map of the United States." id="map_image">
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html" id="home">New York State</a></li>
+                    <li><a href="capital.html" id="capital">Albany</a></li>
+                    <li><a href="city1.html" id="city1">New York City</a></li>
+                    <li><a href="city2.html" id="city2">Rochester</a></li>
+                </ul>
+            </nav>
+        </header>        
+        <section>
+            <h2 class="state_font">Visit New York!</h2>
+            <p id="p1">New York is a state in the North Eastern United States. With a population of approximately 19.6 million residents, New York is the fourth most populous state in the country.<br>
+                We're famous for landmarks such as Times Square, Central Park, and Grand Central Terminal, and home to the luxurious Ivy League, Columbia University and Cornell University.</p>
+                <img src="https://24.media.tumblr.com/347840ca4c7431b731878b7cab5a8132/tumblr_mvpfw00u5F1skjluzo1_500.gif" alt="Image of nyc at night." id="floating_image">
+            <ol id="image_flex">
+                <li><a href="capital.html"><img src="https://capitalizealbany.com/wp-content/uploads/2010/05/BwayRoof.jpg" alt="Image of Albany." id="image2"></a></li>
+                <li><a href="city1.html"><img src="https://www.theglobetrottingteacher.com/wp-content/uploads/2023/09/NYC-Skyline-Christmas.jpg" alt="Image of New York City." id="image1"></a></li>                
+                <li><a href="city2.html"><img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/rochester/sprungphotography_6b546cf9-6954-45a2-802a-298ea7d446ac.jpg" alt="Image of upstate, Rochester." id="image3"></a></li>
+            </ol>            
+            <h3 class="Imagelink" id="link1"><a href="capital.html">Albany</a></h3>
+            <h3 class="Imagelink" id="link2"><a href="city1.html">New York City</a></h3>
+            <h3 class="Imagelink" id="link3"><a href="city2.html">Rochester</a></h3>
+            
+            <p id="p2">Enjoy the nightlife in the city, or visit historical sites and hiking trails. New York was one of the original Thirteen Colonies that went on to form the United States.</p>          
+        </section>
+        <aside id="state_aside">To learn more about New York State,<br> including services, programs<br> and latest news and events,<br> visit: <a href="https://www.ny.gov/" target="_blank">https://www.ny.gov/</a></aside>
+        <h3>Need Some Ideas? Here are some fun activities!</h3>
+        <table>
+            <tr>
+                <th>Outdoors</th>
+                <th>Indoors</th>
+                <th>Miscellaneous</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://i.ytimg.com/vi/euY0n7tyax8/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgOChlMA8=&rs=AOn4CLDPQCVso7wlQHUL9AJL36lvc2nrpg" alt="Image of times square." id="image4"></a>
+                <p>Visit Times Square during the holidays.</p>
+                </td>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://cdn.budgetyourtrip.com/images/photos/venues/usa_nyamericannaturalhistory.jpg" alt="Image of museum." id="image5"></a>
+                <p>Visit the museum of Natural History.</p>
+                </td>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://media.timeout.com/images/105736755/750/562/image.jpg" alt="Image of Chinatown." id="image6"></a>
+                <p>Do a food tour in Chinatown or Little Italy.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/11/fa/26/e0.jpg" alt="Image of moulin rouge actor." id="image7"></a>
+                <p>Attend Moulin Rouge on Broadway.</p>
+                </td>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/23/e9/a4/chelsea-market.jpg?w=1200&h=-1&s=1" alt="Image of market." id="image9"></a>
+                <p>Visit Chelsea Market in the Meatpacking District.</p>
+                </td>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/b3/aa/b3/911-memorial-nyc.jpg?w=1200&h=-1&s=1" alt="Museum on water." id="image8"></a>
+                <p>Visit the National 9/11 Memorial Museum.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/90/ab/88/central-park-manhattan.jpg?w=1200&h=-1&s=1" alt="Image of Central Park." id="image10"></a>
+                <p>Visit Central Park.</p>
+                </td>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/21/75/2c/new-york-public-library.jpg?w=1200&h=-1&s=1" alt="Image of library." id="image11"></a>
+                <p>Visit the Public Library.</p>
+                </td>
+                <td><a href="https://www.tripadvisor.com/Tourism-g60763-New_York_City_New_York-Vacations.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/01/ee/69/madison-square-garden.jpg?w=1000&h=-1&s=1" alt="Image of Madison Square Garden." id="image12"></a>
+                <p>Visit Madison Square Garden.</p>
+                </td>
+            </tr>
+        </table>
+        <p id="form1">Think we missed something? Suggest a place/event below!</p>
+        <form name="form1" onsubmit="return confirmemail()">
+            <p>
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="first" placeholder="Enter your First Name" required>
+            </p>
+            <p>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="last" placeholder="Enter your Last Name" required>
+            </p>
+            <p>
+                <label for="textbox">Suggestion</label>
+                <input type="text" id="textbox" name="textbox" placeholder="Suggest a location" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="name@domain.com" required>
+            </p>
+            <p>
+                <label for="email2">Confirm Email</label>
+                <input type="email" id="email2" name="email2" placeholder="name@domain.com" required>
+            </p>
+            <p>
+                <input type="submit" id="submit">
+            </p>
+        </form>
+        <script type="text/javascript">
+            function confirmemail() {
+                var firstemail = document.form1.email.value;
+                var secondemail = document.form1.email2.value;
+
+                if(firstemail == secondemail) {
+                    return true;
+                }
+                else {
+                    alert("Emails do not match!");
+                    return false;
+                }
+            }          
+            
+        </script>
+    </body>
+    </div>
+</html>

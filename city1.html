@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="page3">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <title>New York City</title>
+        <link rel="stylesheet" href="styles.css" id="device">
+        <script></script>
+        <style>
+            @media only screen and (max-width: 768px) {
+                aside {
+                    display: none;
+                    position: relative;
+                }
+    
+                #link1, #link2, #link3 {
+                    display: none;        
+                }
+
+                nav {
+                    margin-top: 1vh;
+                }
+
+                ul {   
+                    display: flex;
+                    flex-direction: column; 
+                    flex-grow: 1;
+                    justify-content:space-evenly;   
+                    flex-shrink: 0;        
+                    padding: 3vh 2vw;      
+                }
+
+                ul a {
+                    display: block;
+                    width: 50vw;
+                    height: 6vh;    
+                    background-color: rgb(119, 128, 145);
+                    border-color: transparent;
+                    font-size: 5vw;
+                    box-shadow: 1vh 0.5vh 3vh rgb(6, 20, 31);
+                    border-radius: 2.5vw; 
+                    text-align: center;
+                    text-decoration: none;    
+                }
+
+                #float3 {
+                    max-width: 100%;
+                }
+
+                h4 {
+                    position: sticky;
+                }
+            }
+        </style>    
+    </head>
+    <body class="ny_body">
+        <!--Part A2, header-->
+        <header>
+            <h1>New York City</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/New_York_in_United_States.svg/300px-New_York_in_United_States.svg.png" alt="New York on the map of the United States." id="map_image">
+            <!--Part A2, nav-->
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="home">New York State</a></li>
+                    <li><a href="capital.html" id="capital">Albany</a></li>
+                    <li><a class="active" href="city1.html" id="city1">New York City</a></li>
+                    <li><a href="city2.html" id="city2">Rochester</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Part A2, section-->
+        <section>
+            <h2 class ="city1_font">The city that never sleeps</h2>
+            <!--Part A, city information -->
+            <p id="p4">New York City is the most populous city in the United States, with a population of 23.5 million residents. It is located on the southern tip of New York State. The city was officially incorporated in 1653 and is classified as urban. The average income is roughly $40,000, compared to the state average of $74,000. New York City is home to the headquarters of the United Nations, and it is sometimes described as the world's most important city, the cultural, financial, and media epicenter, and the capital of the world</p>
+            <img src="https://hips.hearstapps.com/hmg-prod/images/hbz-nyc-index-00-0-1535036341.jpg?crop=0.888888888888889xw:1xh;center,top&resize=768:*" alt="Image of NYC." id="float3">
+            
+        </section>
+        <h4><a id="homelink" href="index.html">Back to Home</a></h4>
+        <!--Part A2, aside-->
+        <aside id="city1_aside">To learn more about New York State,<br> including services, programs<br> and latest news and events,<br> visit: <a href="https://www.ny.gov/" target="_blank">https://www.ny.gov/</a></aside>
+        
+    </body>
+</html> 

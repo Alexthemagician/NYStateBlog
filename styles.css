@@ -1,0 +1,237 @@
+.page1, .page2, .page3, .page4 {
+    background: linear-gradient(rgb(13, 16, 23), rgb(103, 119, 158));
+    background-attachment: fixed;
+}
+
+#floating_image {
+    position: relative;
+    margin: 2vw auto;
+    border-radius: 1vw 1vw;
+}
+
+#floating_image:hover {
+    box-shadow: 1vw 1vw 2vw rgb(43, 45, 48);
+}
+
+
+
+#float3, #float4 {
+    float: left;
+    border-radius: 3vw;
+    position: relative;
+}
+
+#float3:hover, #float4:hover {
+    transform: scale(1.1);
+    box-shadow: 1vw 1vw 2vw azure;
+}
+
+.Imagelink {
+    display: inline;
+    margin: 12vw;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: transparent;
+    height: 5vh;         
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+ul {   
+    display: flex; 
+    flex-grow: 1;
+    justify-content:space-evenly;   
+    flex-shrink: 0;        
+    padding: 3vh 2vw;      
+}
+
+ul a {
+    text-decoration: none;
+    display: block;
+    width: 22vw;
+    height: 6vh;    
+    background-color: rgb(119, 128, 145);
+    border-color: transparent;
+    font-size: 2vw;
+    box-shadow: 1vh 0.5vh 3vh rgb(6, 20, 31);
+    border-radius: 0.5vw; 
+    text-align: center;
+}
+
+.active {
+    background-color: rgb(49, 49, 69);
+    border-radius: 0.5vw;
+
+}
+
+
+a:visited {
+    color: white;
+}
+
+li a:hover {
+    transform: scale(1.1);
+}
+
+#map_image {
+    border-radius: 10px 40px;
+    box-shadow:5px 10px 10px rgb(6, 20, 31);
+}
+
+aside {
+    position: absolute;
+    right: 8vw;
+    top: 10vw;
+    text-align: left;
+    background-color: rgb(157, 211, 252);
+    border-radius: 3vw;
+    padding: 1vw 1vw;
+}
+
+aside:hover {
+    transform: scale(1.1);
+}
+
+#albany_imgs {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 2vw auto;    
+    flex-wrap: wrap;    
+}
+
+#albany_img, #float2 {
+    width: 30em;
+    height: 15em;
+    border-radius: 2vw;
+    padding: 0.5vw;
+}
+
+#albany_img:hover, #float2:hover {
+    transform: scale(1.1);
+    box-shadow: 1vw 1vw 2vw azure;
+}
+
+#image_flex {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 2vw auto;    
+    flex-wrap: wrap;
+}
+
+#image1, #image2, #image3 {
+    padding: 0.5vw;
+    width: 30em;
+    height: 15em;
+    border-radius: 2vw;
+}
+
+#image1:hover, #image2:hover, #image3:hover {
+    transform: scale(1.1);
+    box-shadow: 1vw 1vw 2vw azure;
+}
+
+#p1, #p2, #p3, #p4, #p5 {
+    position: relative;
+    background-color: rgba(159, 168, 181, 0.1); 
+    padding: 3vh 1vh; 
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.state_font, .cap_font, .city1_font, .city2_font {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table {
+    position: relative;
+    
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+#image4, #image5, #image6, #image7, #image8, #image9, #image10, #image11, #image12 {
+    width: 30vw;
+    height: 15vw;
+}
+
+#image4:hover, #image5:hover, #image6:hover, #image7:hover, #image8:hover, #image9:hover, #image10:hover, #image11:hover, #image12:hover {
+    transform: scale(1.1);
+}
+
+h3 {
+    position: relative;
+    background-color: rgba(72, 128, 130, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#form1 {
+    position: relative;
+    background-color: rgba(159, 168, 181, 0.1);
+    padding: 3vh 1vh;
+    border-radius: 10px;
+    color: aliceblue;    
+}
+
+form {
+    position: relative;    
+    border: solid 2px white;
+    display: inline-block;
+    border-radius: 1vw 1vw;
+}
+
+#submit {
+    background: linear-gradient(rgb(19, 30, 46), rgb(45, 74, 117));
+    padding: 1vw 5vw;
+    border-radius: 20px;
+    margin-left: 0.5vw;
+}
+
+#first, #last, #email, #email2, #textbox {
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+td > p, th {
+    color: white;
+}
+
+h1, h2, h3 {
+    background-color: rgba(119, 128, 145, 0.3);
+    max-width: 400px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: aliceblue;
+}
+
+h4 {
+    position: fixed;
+    bottom: 0;
+    
+}
+
+
+
+
+
+
